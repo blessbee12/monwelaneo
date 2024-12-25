@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referral Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* General Reset */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #fff5e6; /* Light orange background */
+        }
+
+        /* Header Section */
+        .header {
+            padding: 20px;
+            background: #ff8c42; /* Orange theme */
+            color: #fff;
+            position: relative;
+        }
+
+        .logo {
+            position: absolute;
+            left: 20px;
+        }
+
+        .logo img {
+            height: 60px;
+            width: auto;
+            border-radius: 8px; /* Rounded edges for logo */
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .navbar ul li a:hover {
+            color: #ffd699; /* Light orange on hover */
+        }
+
+        /* Referral Section */
+        .referral-section {
+            background: #ffe0cc; /* Light orange */
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .referral-section h2 {
+            font-size: 2rem;
+            color: #ff8c42;
+            margin-bottom: 20px;
+        }
+
+        .referral-section p {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .referral-section form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            border: 2px solid #ff8c42;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .referral-section form label {
+            display: block;
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        .referral-section form input,
+        .referral-section form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .referral-section form textarea {
+            resize: vertical;
+            height: 100px;
+        }
+
+        .referral-section form .btn {
+            display: inline-block;
+            background: #ff8c42;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .referral-section form .btn:hover {
+            background: #ffb366;
+        }
+
+        /* Footer Section */
+        .footer {
+            background: #ff8c42;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.jpg" alt="Healthcare Solutions Logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="appointment.html">Book Appointment</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="refer.html">Refer a patient</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Referral Section -->
+    <section id="referrals" class="referral-section">
+        <div class="container">
+            <h2>Refer a Patient</h2>
+            <p>If you are a healthcare provider or medical professional, use the form below to refer a patient to our services.</p>
+
+            <!-- Referral Form -->
+            <form action="/submit-referral" method="POST">
+                <label for="referring-name">Referring Physician's Name*</label>
+                <input type="text" id="referring-name" name="referring_name" required>
+
+                <label for="patient-name">Patient's Name*</label>
+                <input type="text" id="patient-name" name="patient_name" required>
+
+                <label for="contact-number">Contact Number*</label>
+                <input type="tel" id="contact-number" name="contact_number" required>
+
+                <label for="patient-condition">Patient's Condition</label>
+                <textarea id="patient-condition" name="patient_condition"></textarea>
+
+                <button type="submit" class="btn">Submit Referral</button>
+            </form>
+
+            <!-- Additional Referral Information -->
+            <p>For more detailed information about our services and referral process, please contact us directly.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Neo Health and Wellness Center | All Rights Reserved</p>
+        </div>
+        <script src="script.js"></script>
+
+    </footer>
+</body>
+</html>

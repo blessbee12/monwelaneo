@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment - Neo Health</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <!-- You can add your logo image here -->
+            <img src="logo.jpg" alt="Neo Health and Wellness Center Logo" height="50">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="appointment.html">Book Appointment</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="refer.html">Refer A Patient</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Appointment Booking Form -->
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+        <p>Please fill out the form below to schedule your appointment.</p>
+
+        <form id="appointment-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="wound care management">woundcare management</option>
+                <option value="ostomy care">ostomy care</option>
+                <option value="continence care">continence care</option>
+                <option value="professional nursing">professional nursing</option>
+            </select>
+
+            <button type="submit">Submit Appointment</button>
+        </form>
+
+        <p id="confirmation-message" style="display: none; color: green; margin-top: 1rem;">
+            Thank you! Your appointment has been submitted successfully.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Neo Health and Wellness Center. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

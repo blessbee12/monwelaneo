@@ -1,0 +1,1844 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+.header {
+    background: #ce4a11;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;  /* Allow the logo to take up space on the left */
+}
+
+.navbar {
+    flex: 3;  /* Allow the navigation bar to take up the remaining space */
+}
+
+.logo img {
+    max-width: 100%;  /* Ensures the logo resizes properly */
+    height: auto;     /* Maintains aspect ratio */
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: rgb(4, 4, 4);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background: #f47920;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    background: #e0f7fa;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.service-card i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #0d0d0d;
+}
+
+/* Footer Section */
+.footer {
+    background: #0b0b0b;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.top-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.btn {
+    background-color: #ff5900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #b33c00;
+}
+.navbar a {
+    color: #333;  /* Default text color */
+    text-decoration: none;  /* Removes the underline */
+    padding: 10px 15px;  /* Adds padding to the links */
+    display: inline-block;  /* Ensures the padding works properly */
+    transition: background-color 0.3s ease, color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+    background-color: black;  /* Background color turns black on hover */
+    color: white;  /* Text color turns white on hover */
+}
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #000; /* Black text color */
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    background-color: #FFA500; /* Orange background */
+    padding: 20px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    max-width: 150px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #000; /* Black text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for menu */
+.navbar ul li a:hover {
+    color: #FFA500; /* Orange text on hover */
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+}
+
+.contact-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-section h2 {
+    color: #FFA500; /* Orange text for heading */
+}
+
+.contact-details p {
+    font-size: 1.1em;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form .btn {
+    background-color: #FFA500; /* Orange button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    border-radius: 4px;
+}
+
+form .btn:hover {
+    background-color: #e59400; /* Darker orange on hover */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    background-color: #006f90;
+    padding: 20px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    max-width: 150px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #f4a300; /* Hover effect */
+}
+
+/* Who We Are Section */
+.who-we-are {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.who-we-are h2 {
+    color: #090909;
+}
+
+.who-we-are p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Refer a Patient Section */
+.refer-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.refer-section h3 {
+    color: #0b0b0b;
+}
+
+.refer-section .btn {
+    background-color: #f9320a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    border-radius: 4px;
+}
+
+.refer-section .btn:hover {
+    background-color: #f4a300;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #904600;
+    padding: 20px;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.services {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-card .btn {
+    background-color: #904100;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.service-card .btn:hover {
+    background-color: #f4a300;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #904a00;
+    padding: 20px;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.referral-section {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.referral-section form {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.referral-section form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.referral-section form input, 
+.referral-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.referral-section form button {
+    background-color: #903e00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.referral-section form button:hover {
+    background-color: #f4a300;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Container for header and search bar */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the search bar container */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.search-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: #ff6600; /* Use an orange-like color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-container button i {
+    color: white;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    background-color: #FFA500; /* Orange background */
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: #000; /* Black text */
+}
+
+.navbar ul li a:hover {
+    color: #FFA500; /* Orange text on hover */
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #000;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero .btn {
+    background: #ff6600; /* Orange button */
+}
+
+/* Footer Section */
+.footer {
+    background: #FFA500; /* Orange footer */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Services Section */
+.services {
+    background-color: #f9f9f9;
+}
+
+/* Service Card */
+.service-card i {
+    color: #FFA500; /* Orange icon color */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #ff5900;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #e59400; /* Darker orange on hover */
+}
+
+/* Search Bar */
+.search-container button {
+    background-color: #ff6600; /* Orange background */
+}
+.service-card .btn {
+    background-color: #000; /* Black button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.service-card .btn:hover {
+    background-color: #FFA500; /* Orange hover effect */
+    color: white;
+}
+/* Team Member Card */
+.team-member {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Hover Effects for Team Member */
+.team-member:hover {
+    transform: translateY(-15px) rotate(0.5deg);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    background-color: #fffbf0;
+}
+
+/* Team Photo */
+.team-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.team-member:hover .team-photo {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 122, 0, 0.6);
+}
+
+/* Team Name and Role */
+.team-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.team-role {
+    font-size: 1.2rem;
+    color: #ff7a00;
+    margin-bottom: 10px;
+}
+
+/* Team Description */
+.team-description {
+    font-size: 1rem;
+    color: #666;
+    position: relative;
+    transition: opacity 0.3s ease;
+}
+
+/* Glow on Hover */
+.team-member:hover .team-description {
+    opacity: 0.9;
+}
+
+/* Background Effects */
+.expert-team::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 122, 0, 0.1), transparent);
+    z-index: -1;
+    transform: translate(-50%, 0);
+    animation: pulse 6s infinite alternate;
+}
+
+/* Pulse Effect */
+@keyframes pulse {
+    from {
+        transform: translate(-50%, -10%);
+        opacity: 0.7;
+    }
+    to {
+        transform: translate(-50%, 10%);
+        opacity: 0.3;
+    }
+}
+/* Menu Bar */
+.menu-bar {
+    background-color: #ff7a00; /* Orange background */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Links */
+.menu-bar a {
+    text-decoration: none;
+    color: #ffffff; /* White text for contrast */
+    font-size: 1rem;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.menu-bar a:hover {
+    color: #ffdda2; /* Lighter orange on hover */
+}
+
+/* Logo or Title */
+.menu-bar .logo {
+    font-size: 1.5rem;
+    color: #fff; /* White text */
+    font-weight: bold;
+}
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+/* Expert Team Section */
+.expert-team {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    position: relative;
+    animation: slideIn 1.2s ease-out forwards;
+}
+
+/* Animation for Title */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Team Container */
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    animation: fadeIn 1.5s ease-in forwards;
+}
+
+/* Fade-In Animation for Team Members */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Team Member Card */
+.team-member {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Hover Effects for Team Member */
+.team-member:hover {
+    transform: translateY(-15px) rotate(0.5deg);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    background-color: #fffbf0;
+}
+
+/* Team Photo */
+.team-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.team-member:hover .team-photo {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 122, 0, 0.6);
+}
+
+/* Team Name and Role */
+.team-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.team-role {
+    font-size: 1.2rem;
+    color: #ff7a00;
+    margin-bottom: 10px;
+}
+
+/* Team Description */
+.team-description {
+    font-size: 1rem;
+    color: #666;
+    position: relative;
+    transition: opacity 0.3s ease;
+}
+
+/* Glow on Hover */
+.team-member:hover .team-description {
+    opacity: 0.9;
+}
+
+/* Background Effects */
+.expert-team::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 122, 0, 0.1), transparent);
+    z-index: -1;
+    transform: translate(-50%, 0);
+    animation: pulse 6s infinite alternate;
+}
+
+/* Pulse Effect */
+@keyframes pulse {
+    from {
+        transform: translate(-50%, -10%);
+        opacity: 0.7;
+    }
+    to {
+        transform: translate(-50%, 10%);
+        opacity: 0.3;
+    }
+}
+/* Navbar Styling */
+.navbar {
+    background-color: #ff7a00; /* Bright orange background */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align menu items to the right */
+    gap: 20px; /* Space between menu items */
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* White text for contrast */
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #e66900; /* Darker orange on hover */
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f99407;
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+header .navbar ul li {
+    display: inline;
+}
+
+header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+header .navbar ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Appointment Section */
+#appointment {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#appointment h2 {
+    color: #333;
+}
+
+#appointment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    background: white;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#appointment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #f40b0b;
+}
+
+#appointment-form input, 
+#appointment-form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#appointment-form button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#appointment-form button:hover {
+    background-color: #e68a00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #ee6f0e;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff5e6; /* Light orange background */
+}
+
+/* Header Section */
+.header {
+    background: #ff8c42; /* Orange theme */
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffd699; /* Lighter orange on hover */
+}
+
+/* Services Section */
+.services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    color: #ff8c42;
+    margin-bottom: 20px;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background: #fff;
+    border: 2px solid #ff8c42;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0 10px 15px;
+}
+
+.service-card .btn {
+    text-decoration: none;
+    display: inline-block;
+    background: #ff8c42;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.service-card .btn:hover {
+    background: #ffb366;
+}
+/* General Text Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Font for the body */
+    color: #333; /* Dark grey text color */
+    line-height: 1.6; /* Line height for readability */
+    font-size: 16px; /* Base font size */
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica', sans-serif; /* Use a clean sans-serif font for headings */
+    color: #ff6600; /* Orange color for headings */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Specific Heading Styles */
+h1 {
+    font-size: 48px; /* Large size for main titles */
+    text-align: center; /* Center-align for hero sections */
+}
+
+h2 {
+    font-size: 36px; /* Medium-large size for section titles */
+    text-align: left; /* Left-aligned */
+}
+
+h3 {
+    font-size: 28px; /* Smaller than h2, used for subheadings */
+    color: #e65c00; /* Slightly darker orange */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 18px; /* Readable size for paragraphs */
+    color: #666; /* Lighter grey for text */
+    line-height: 1.8; /* Increased line height for better readability */
+    margin-bottom: 20px; /* Spacing between paragraphs */
+}
+
+/* Links Styles */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #ff6600; /* Orange color for links */
+    font-weight: bold; /* Make links stand out */
+}
+
+a:hover {
+    color: #e65c00; /* Darker orange on hover */
+}
+
+/* Button Text Styles */
+.btn {
+    font-size: 16px; /* Standard button text size */
+    font-weight: bold; /* Bold text for emphasis */
+    text-transform: uppercase; /* Uppercase text for buttons */
+    letter-spacing: 1px; /* Slight letter spacing for readability */
+}
+
+/* Quote Styles */
+blockquote {
+    font-style: italic; /* Italicize blockquotes */
+    font-size: 20px; /* Larger font size for quotes */
+    color: #555; /* Lighter grey color for quotes */
+    margin: 20px 0;
+    padding-left: 20px; /* Indentation for blockquotes */
+    border-left: 5px solid #ff6600; /* Orange left border for emphasis */
+}
+
+/* Small Text */
+small {
+    font-size: 14px; /* Smaller font size for fine print or footnotes */
+    color: #888; /* Lighter grey color */
+}
+
+/* Lists Styles */
+ul, ol {
+    padding-left: 20px; /* Indentation for lists */
+    margin-bottom: 20px; /* Space below lists */
+}
+
+li {
+    font-size: 16px; /* Standard list item font size */
+    color: #333; /* Dark text for list items */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Code/Textarea Styles */
+code {
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font for code */
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 2px 6px; /* Padding around the code */
+    border-radius: 4px; /* Rounded corners */
+}
+
+textarea {
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font for textareas */
+    padding: 10px; /* Padding inside the textarea */
+    width: 100%; /* Full width */
+    height: 150px; /* Set height */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Text Alignment */
+.text-center {
+    text-align: center; /* Center-align text */
+}
+
+.text-left {
+    text-align: left; /* Left-align text */
+}
+
+.text-right {
+    text-align: right; /* Right-align text */
+}
+
+/* Text Decoration */
+.text-uppercase {
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.text-lowercase {
+    text-transform: lowercase; /* Lowercase text */
+}
+
+.text-capitalize {
+    text-transform: capitalize; /* Capitalize first letter of each word */
+}
+
+/* Text Shadow */
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow for emphasis */
+}
+
+ /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ff8c42; /* Orange theme */
+            padding: 10px 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu li {
+            display: inline;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .menu a:hover {
+            color: #ffd699; /* Light orange on hover */
+        }
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ff8c42; /* Orange theme */
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Logo Styling */
+.logo img {
+    height: 50px; /* Adjust logo height */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the logo */
+}
+
+/* Navigation Bar */
+.navbar ul {
+    display: flex;
+    list-style: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px; /* Spacing between menu items */
+}
+
+.navbar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    font-weight: bold; /* Make text bold */
+    font-size: 1rem; /* Adjust font size */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar ul li a:hover {
+    color: #ffdda1; /* Light orange color on hover */
+}
+
+/* Responsive Design for Small Screens */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack logo and navigation */
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Stack menu items */
+        align-items: flex-start;
+    }
+
+    .navbar ul li {
+        margin: 5px 0; /* Adjust spacing for stacked items */
+    }
+
+    .logo img {
+        height: 40px; /* Smaller logo for small screens */
+    }
+}
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ff8c42; /* Orange theme */
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Logo Styling */
+.logo img {
+    height: 50px; /* Adjust logo height */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the logo */
+}
+
+/* Navigation Bar */
+.navbar ul {
+    display: flex;
+    list-style: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 10px; /* Reduced spacing between menu items */
+}
+
+.navbar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    font-weight: 500; /* Medium font weight for cleaner look */
+    font-size: 0.9rem; /* Smaller font size for compact text */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar ul li a:hover {
+    color: #ffdda1; /* Light orange color on hover */
+}
+
+/* Responsive Design for Small Screens */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack logo and navigation */
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Stack menu items */
+        align-items: flex-start;
+    }
+
+    .navbar ul li {
+        margin: 5px 0; /* Adjust spacing for stacked items */
+    }
+
+    .logo img {
+        height: 50px; /* Smaller logo for small screens */
+    }
+
+    .navbar ul li a {
+        font-size: 1.8rem; /* Further reduce font size for small screens */
+    }
+}
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff5e6;
+}
+
+/* Header Section */
+.header {
+    background: #ff8c42;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+    border-radius: 8px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffd699;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: #ffdda1;
+    padding: 60px 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #ff8c42;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.hero-content .btn {
+    background: #ff8c42;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background: #e6762a;
+}
+
+/* Past Events Section */
+.past-events {
+    padding: 40px 20px;
+    background: #fdfdfd;
+}
+
+.past-events h2 {
+    text-align: center;
+    color: #ff8c42;
+    font-size: 1.8rem;
+}
+
+.event-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.event {
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.event:hover {
+    transform: scale(1.05);
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.event h3 {
+    color: #ff8c42;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+.footer {
+    background: #ff8c42;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff5e6; /* Light orange background */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff8c42; /* Orange theme */
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds space between the logo image and text */
+}
+
+.logo-img {
+    height: 50px; /* Adjust the height of the logo */
+    width: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ffd699; /* Light orange on hover */
+}
+
+/* Expert Team Section */
+.expert-team {
+    background-color: #ffe0cc; /* Light orange */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #ff8c42; /* Orange theme for section title */
+    margin-bottom: 30px;
+}
+
+/* Team Container */
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Team Member Card */
+.team-member {
+    background-color: #fff;
+    border: 2px solid #ff8c42; /* Orange border */
+    border-radius: 15px;
+    width: 280px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effects */
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.team-photo {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+
+/* Captions */
+.team-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.team-role {
+    font-size: 1.2rem;
+    color: #ff8c42; /* Orange for role text */
+    margin-bottom: 10px;
+}
+
+.team-description {
+    font-size: 1rem;
+    color: #666;
+    margin: 0 10px 15px;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center; /* This centers the menu items */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffdda1; /* Light orange on hover */
+}
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff5e6; /* Light orange background */
+}
+
+/* Header Section */
+.header {
+    padding: 20px;
+    background: #ff8c42; /* Orange theme */
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    left: 20px; /* Align logo to the left */
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    border-radius: 8px; /* Rounded edges for logo */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centers the menu */
+    align-items: center;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #ffd699; /* Light orange on hover */
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+/* Add this to your CSS file */
+
+header .logo {
+    position: absolute; /* Makes the logo fixed to the top-left */
+    top: 10px;          /* Adjusts distance from the top */
+    left: 10px;         /* Adjusts distance from the left */
+    display: flex;      /* Ensures proper alignment of content */
+    align-items: center;
+    z-index: 10;        /* Ensures the logo stays above other elements */
+}
+
+header .logo img {
+    max-height: 60px;   /* Adjusts the size of the logo */
+    width: auto;        /* Keeps the aspect ratio */
+}
+/* Header styling */
+header {
+    background-color: #ff8c42; /* Orange background */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1000;
+}
+
+/* Logo styling */
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    max-height: 60px; /* Ensures proper scaling */
+    width: auto;
+}
+
+/* Navbar styling */
+.navbar {
+    flex: 1; /* Fills available space */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li {
+    margin: 0 15px;
+}
+
+.navbar .menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar .menu li a:hover {
+    color: #ffe5d5; /* Light hover effect */
+}
